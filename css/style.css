@@ -1,0 +1,73 @@
+body{
+
+    background-image: url("/img/fundo-laranja.jpg");
+    font-family: sans-serif;
+
+}
+
+.form{
+
+    width: 500px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+
+.card{
+    padding: 30px;
+    border-style: hidden;
+    /* background-color: #ccc; */
+}
+
+.card-top{
+
+    text-align: center;
+
+}
+
+.img-login{
+
+    border-radius: 30px;
+    width: 100px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.titulo{
+    color: #112C76 ;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+
+
+.card-group > input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    /* padding: 15px; */
+    color: #112C76;
+    border-bottom: 2px solid #112C76;
+    margin: 12px 0;
+
+}
+
+.card-group > button{
+
+    background-color: #112C76;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    margin: 12px 0;
+    
+
+}
